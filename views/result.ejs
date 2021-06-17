@@ -15,8 +15,10 @@
         <div class="container-div">
            
         <div class="main-div">
+            <h1 class="spanchange"> <%= name %></h1>
             <h1>The weather is currently haze</h1>
-            <p class="para">The temperature in <span class="spanchange"> <%= name %></span>  is <span class="spanchange"> <%= temp %>℃&nbsp;&nbsp;(<%= tempmin %>℃-<%= tempmax %>℃) </span>   </p>
+            <p class="para">The temperature in <span class="spanchange"> <%= name %></span>  is <span class="span"> <%= temp %>℃</span><span class="spanchange">
+                (<%= tempmin %>℃-<%= tempmax %>℃) </span>   </p>
                 <p>Minimum temperature&nbsp;&nbsp; <span><%= tempmin %>℃</span></p>
                 <p>Maximum temperature&nbsp;&nbsp; <span><%= tempmax %>℃</span></p>
     
@@ -25,9 +27,9 @@
               
                  <p >🌡  Humidity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> <%= humidity %>%</span></p>
                  <p >❄️   wind speed&nbsp;&nbsp;&nbsp;&nbsp;<span> <%= windspeed %> mps</span></p>
-                 <img src=<%= cloud%> class="iconimg"><span class="spanchange"><%= description %></span>
+                 <img src=<%= cloud%> class="iconimg"><span class="spanchange"><%= description %></span></div>
       
-                 <p style="margin-top:40px; float:right;color: grey;">Designed By Muthu priya</p>   
+                 <p style=" float:right;color: grey;">Designed By Muthu priya</p>   
 </div>
 </body>
 </html>
