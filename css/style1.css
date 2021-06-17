@@ -1,0 +1,50 @@
+.container-div{
+    width: 1200px;
+    height:700px;
+    font-family: 'Times New Roman', Times, serif;
+  margin: 1% auto auto auto;
+   background-image: url(./images/weather1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.main-div{
+    height: 290px;
+    
+    padding:20px 10px 25px 150px;
+    
+     background-color:gainsboro;
+ color: rgba(53, 51, 51, 0.685);
+
+}
+
+h1{
+
+    font-size: 2rem;
+
+
+}
+
+p{
+    font-size: 0.8rem;
+    color: black;
+    font-weight: normal;
+   
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 0.9rem;
+    color: blue;
+}
+
+.iconimg{
+    width: 80px;
+   
+  margin-top: -10px;
+
+    height: 50px;
+}
+.spanchange{
+    color: rgba(53, 51, 51, 0.685);
+}
