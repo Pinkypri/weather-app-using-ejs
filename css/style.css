@@ -1,16 +1,17 @@
+
 .inner{
    height: 100%;
 width: 100%;
-    position:absolute;
-   
-   
 
+  background-position:top;
+   
+  background-image: url(./images/weather1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
 font-family: 'Times New Roman', Times, serif;
    margin:auto auto auto auto;
-   background-position: center center;
-   background-image: url(./images/weather1.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+ 
 }
 .card{
    
@@ -75,7 +76,9 @@ input{
     border: 1px solid black;
 }
 @media only screen and (max-width: 412px) {
-   
+   .inner{
+       background-position: center;
+   }
     .btn {
       width: auto;
     }
